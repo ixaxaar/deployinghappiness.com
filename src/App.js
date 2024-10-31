@@ -181,13 +181,15 @@ const Venue = () => {
 
         <div className={styles.venueMap}>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.2773670336166!2d88.4207663!3d22.6534583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89faa29fb9b11%3A0x7d7c07b6d647bdd4!2sAirport%20City%20Hotel!5e0!3m2!1sen!2sin!4v1635789012345!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.9880575613606!2d88.43282477610424!3d22.654233879433654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89e56ad8e69f1%3A0x3cab1511477c16f5!2sAirport%20City%20Hotel%2C%20Banquet%20Hall%20(Weddingz.in%20Partner)!5e0!3m2!1sen!2ssg!4v1730403694167!5m2!1sen!2ssg"
             width="100%"
             height="100%"
             style={{ border: 0 }}
             allowFullScreen=""
             loading="lazy"
-          />
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
         </div>
       </div>
     </section>
