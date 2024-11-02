@@ -360,7 +360,7 @@ const PhotoGallery = () => {
     {
       id: 3,
       src: "/assets/us/IMG20240120165514.jpg",
-      commit: "Garden of love 🌺",
+      commit: "The city exploration 🌻",
       author: "Russi"
     },
     {
