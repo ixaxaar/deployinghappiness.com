@@ -71,9 +71,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
   background: linear-gradient(to bottom, var(--primary-light), var(--secondary-light));
-  background-image: url('./assets/hero8.webp');
+  background-image: url('./assets/bg12.webp');
   background-position: center;
   position: relative;
   overflow: hidden;
@@ -81,7 +81,7 @@
 
 .heroContent {
   text-align: center;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
   padding: 4rem;
   height: 100% !important;
   position: relative;
@@ -167,34 +167,69 @@
 }
 
 .venue {
-  /* background-size: 20px 20px; */
-  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
-  /* background-image: url('./asssets/bg-2.png'); */
-  background-image: url('./assets/bg6.png');
+  background-image: url('./assets/bg10.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: top;
+  padding: 2rem;
 }
 
-.venue .container {
-  padding: 5rem 2rem;
-  background-color: rgba(255, 255, 255, 0.8);
+.venueGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.venueCard {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .venueName {
-  text-align: center;
+  font-family: var(--font-serif);
   font-size: 1.5rem;
+  color: var(--primary);
   margin-bottom: 1rem;
+  text-align: center;
+}
+
+.venueTitle {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.venueInfo {
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 .venueAddress {
-  text-align: center;
+  color: var(--text-secondary);
+  line-height: 1.6;
 }
 
 .venueMap {
-  width: 100%;
-  height: 24rem;
+  height: 300px;
   border-radius: 0.5rem;
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .venueGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .venueCard {
+    padding: 1rem;
+  }
+
+  .venueMap {
+    height: 250px;
+  }
 }
 
 .rsvp {
@@ -281,7 +316,9 @@
   /* background-size: 20px 20px; */
   background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
   /* background-image: url('./asssets/bg-2.png'); */
-  background-image: url('./assets/bg6.png');
+  background-image: url('./assets/bg10.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: top;
 }
 

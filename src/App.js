@@ -169,27 +169,56 @@ const Venue = () => {
   return (
     <section id="venue" className={styles.venue}>
       <div className={styles.container}>
-        <h2 className={styles.sectionTitle}>Venue</h2>
-        <div className={styles.venueInfo}>
-          <h3 className={styles.venueName}>Airport City Hotel</h3>
-          <div className={styles.venueAddress}>
-            <p>Khalisha Kota, Birati</p>
-            <p>North Dumdum, West Bengal 700081</p>
-            <p>India</p>
-          </div>
-        </div>
+        {/* <h2 className={styles.sectionTitle}>Venues</h2> */}
 
-        <div className={styles.venueMap}>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.9880575613606!2d88.43282477610424!3d22.654233879433654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89e56ad8e69f1%3A0x3cab1511477c16f5!2sAirport%20City%20Hotel%2C%20Banquet%20Hall%20(Weddingz.in%20Partner)!5e0!3m2!1sen!2ssg!4v1730403694167!5m2!1sen!2ssg"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          >
-          </iframe>
+        <div className={styles.venueGrid}>
+          {/* Wedding Venue */}
+          <div className={styles.venueCard}>
+            <h3 className={styles.venueName}>Wedding - 17th November</h3>
+            <div className={styles.venueInfo}>
+              <h4 className={styles.venueTitle}>Airport City Hotel</h4>
+              <div className={styles.venueAddress}>
+                <p>Khalisha Kota, Birati</p>
+                <p>North Dumdum, Kolkata</p>
+              </div>
+            </div>
+
+            <div className={styles.venueMap}>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.9880575613606!2d88.43282477610424!3d22.654233879433654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89e56ad8e69f1%3A0x3cab1511477c16f5!2sAirport%20City%20Hotel%2C%20Banquet%20Hall%20(Weddingz.in%20Partner)!5e0!3m2!1sen!2ssg!4v1730403694167!5m2!1sen!2ssg"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
+          </div>
+
+          {/* Reception Venue */}
+          <div className={styles.venueCard}>
+            <h3 className={styles.venueName}>Reception - 19th November</h3>
+            <div className={styles.venueInfo}>
+              <h4 className={styles.venueTitle}>Kanha Banquets</h4>
+              <div className={styles.venueAddress}>
+                <p>Synthesis Business Park, Plot No CBD/1, 9th Floor, Wing A</p>
+                <p>New Town, beside Mothers Wax Museum, Action Area I, Newtown, Kolkata</p>
+              </div>
+            </div>
+
+            <div className={styles.venueMap}>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.4414370472605!2d88.46978797610295!3d22.599985079472177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275b3337338cf%3A0x21e77463eece3f64!2sKanha%20banquet!5e0!3m2!1sen!2ssg!4v1730544571815!5m2!1sen!2ssg"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
