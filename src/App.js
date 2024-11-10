@@ -320,7 +320,7 @@ const RSVP = () => {
             </div>
 
             <button type="submit" className={styles.submitButton}>
-              Submit Bug Report
+              Submit
             </button>
           </div>
         </form>
@@ -480,7 +480,7 @@ const Footer = () => {
 
         <div className={styles.footerInfo}>
           <div className={styles.footerHashtag}>#DeployingHappiness</div>
-          <div className={styles.footerDate}>17.11.2024</div>
+          <div className={styles.footerDate}>🧿 17.11.2024 🧿</div>
           <div className={styles.footerCredit}>
             <Heart className={styles.footerHeart} />
             <span>Russi & Amrita</span>
