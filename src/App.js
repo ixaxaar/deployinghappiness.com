@@ -174,7 +174,7 @@ const Venue = () => {
         <div className={styles.venueGrid}>
           {/* Wedding Venue */}
           <div className={styles.venueCard}>
-            <h3 className={styles.venueName}>Wedding - 17th November</h3>
+            <h3 className={styles.venueName}>Wedding</h3>
             <div className={styles.venueInfo}>
               <h4 className={styles.venueTitle}>Airport City Hotel</h4>
               <div className={styles.venueAddress}>
@@ -198,7 +198,7 @@ const Venue = () => {
 
           {/* Reception Venue */}
           <div className={styles.venueCard}>
-            <h3 className={styles.venueName}>Reception - 19th November</h3>
+            <h3 className={styles.venueName}>Reception</h3>
             <div className={styles.venueInfo}>
               <h4 className={styles.venueTitle}>Kanha Banquets</h4>
               <div className={styles.venueAddress}>
@@ -480,7 +480,7 @@ const Footer = () => {
 
         <div className={styles.footerInfo}>
           <div className={styles.footerHashtag}>#DeployingHappiness</div>
-          <div className={styles.footerDate}>🧿 17.11.2024 🧿</div>
+          <div className={styles.footerDate}>🧿 🧿</div>
           <div className={styles.footerCredit}>
             <Heart className={styles.footerHeart} />
             <span>Russi & Amrita</span>
