@@ -107,9 +107,9 @@ const Hero = () => {
       <div className="pattern-circuit absolute inset-0 opacity-5" />
       <div className={styles.heroContent}>
         <h1 className={styles.heroTitle}>Russi & Amrita</h1>
-        <p className={styles.heroSubtitle}>are embarking on their forever journey</p>
+        <p className={styles.heroSubtitle}><s>are embarking on their forever journey</s></p>
 
-        <div className={styles.heroDate}>17th November 2024</div>
+        <div className={styles.heroDate}>are now married!</div>
 
         <div className={styles.countdown}>
           {Object.entries(timeLeft).map(([unit, value]) => (
